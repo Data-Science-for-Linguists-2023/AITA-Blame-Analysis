@@ -1,3 +1,4 @@
 data/
 .ipynb_checkpoints
 code/initial_data_collection.ipynb
+code/cache
