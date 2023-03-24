@@ -1,4 +1,4 @@
-code/initial_data_collection.ipynb
+user_info.txt
 
 #------------------ Jupyter, R  
 .ipynb_checkpoints
@@ -11,4 +11,3 @@ Thumbs.db
 desktop.ini
 #------------------ directories to ignore
 temp/
-data/
