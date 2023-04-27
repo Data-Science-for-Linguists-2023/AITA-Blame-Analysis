@@ -1,5 +1,6 @@
 user_info.txt
 data/aita_working_df.csv
+code/cache
 
 #------------------ Jupyter, R  
 .ipynb_checkpoints
