@@ -23,13 +23,13 @@ The data set for this project was generated myself using [PMAW](https://github.c
 * [`progress_report.md`](progress_report.md): This is a journal used throughout the semester to document major updates to my project.
 * [`project_plan.md`](project_plan.md): This is the original pitch for this project from the beginning of the semester.
 * [`code`](code): This folder houses the Jupyter Notebooks used to work through my project.
-    * [`data_collection_testion.ipynb`](code\data_collection_testing.ipynb): This houses an initial experiment with PMAW to form my data set
-    * [`data_collection.ipynb`](code\data_collection.ipynb): This maintains the full run through scraping and reorganizing my data set.
-    * [`data_analysis.ipynb`](code\data_analysis.ipynb): This contains the bulk of my project, where I analyze the data set for linguistic features.
-    * [`data_analysis_experiments`](code\data_analysis_experiments.ipynb): This contains attempts to utilize machine learning to explore the data set. The results here are inconclusive.
+    * [`data_collection_testion.ipynb`](code/data_collection_testing.ipynb): This houses an initial experiment with PMAW to form my data set
+    * [`data_collection.ipynb`](code/data_collection.ipynb): This maintains the full run through scraping and reorganizing my data set.
+    * [`data_analysis.ipynb`](code/data_analysis.ipynb): This contains the bulk of my project, where I analyze the data set for linguistic features.
+    * [`data_analysis_experiments`](code/data_analysis_experiments.ipynb): This contains attempts to utilize machine learning to explore the data set. The results here are inconclusive.
 * [`data`](data): This folder houses the data set develooped from this project. Most of the contents of this folder are ignored on the public repo.
-    * [`aita_data_sample.csv`](data\aita_data_sample.csv): This is the results of the initial test run at [`data_collection_test.ipynb`](code\data_collection_test.ipynb)
-    * [`aita_data.csv`](data\aita_data.csv): This is the final data set gathered from [`data_collection.ipynb`](code\data_collection.ipynb).
+    * [`aita_data_sample.csv`](data/aita_data_sample.csv): This is the results of the initial test run at [`data_collection_test.ipynb`](code/data_collection_test.ipynb)
+    * [`aita_data.csv`](data\aita_data.csv): This is the final data set gathered from [`data_collection.ipynb`](code/data_collection.ipynb).
 * [`figures`](figures): This folder houses the assets used within my [`final_report.md`](final_report.md).
 * [`.gitignore`](.gitignore): This folder serves as housekeeping to omit any unnecessary files from the repository, such as internal saves of my data set.
 
