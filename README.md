@@ -23,7 +23,7 @@ The data set for this project was generated myself using [PMAW](https://github.c
 * [`progress_report.md`](progress_report.md): This is a journal used throughout the semester to document major updates to my project.
 * [`project_plan.md`](project_plan.md): This is the original pitch for this project from the beginning of the semester.
 * [`code`](code): This folder houses the Jupyter Notebooks used to work through my project.
-    * [`data_collection_testion.ipynb`](https://github.com/Data-Science-for-Linguists-2023/AITA-Blame-Analysis/blob/main/code/data_collection_testing.ipynb): This houses an initial experiment with PMAW to form my data set
+    * [`data_collection_test.ipynb`](https://github.com/Data-Science-for-Linguists-2023/AITA-Blame-Analysis/blob/main/code/data_collection_test.ipynb): This houses an initial experiment with PMAW to form my data set
     * [`data_collection.ipynb`](https://github.com/Data-Science-for-Linguists-2023/AITA-Blame-Analysis/blob/main/code/data_collection.ipynb): This maintains the full run through scraping and reorganizing my data set.
     * [`data_analysis.ipynb`](https://github.com/Data-Science-for-Linguists-2023/AITA-Blame-Analysis/blob/main/code/data_analysis.ipynb): This contains the bulk of my project, where I analyze the data set for linguistic features.
     * [`data_analysis_experiments`](https://github.com/Data-Science-for-Linguists-2023/AITA-Blame-Analysis/blob/main/code/data_analysis_experiments.ipynb): This contains attempts to utilize machine learning to explore the data set. The results here are inconclusive.
