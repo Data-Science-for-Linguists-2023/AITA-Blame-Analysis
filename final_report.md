@@ -38,12 +38,12 @@ While most of the subjects across the rulings are pronouns and familial terms in
 ### Quantitative Analysis: Considering Passive and Active Voice
 Using spaCy, I separated the nominal subjects into passive subjects and active subjects. The goal here is to question who and what writers ascribe agency to. My initial theory is that people marked as Assholes will use more passive voice on average as they attempt to cover themselves up as the causes of problems within their stories.
 
-![png](passact.png)
+![png](figures/passact.png)
 
 The plot shows that posts marked Not the A-hole use a larger amount of passive clauses relative to the total number of clauses in the post. However, I am weary to draw conclusions from this metric. It may be a coincidence, but the order of most to least passive rulings is the same order as the most to least number of posts in the data set. It's possible that this plot would look more even if the data set was more even, but for now, that is uncertain.
 A much more extensive breakdown of what the actual passive versus active subjects are for [Not the Asshole posts](https://nbviewer.org/github/Data-Science-for-Linguists-2023/AITA-Blame-Analysis/blob/main/code/data_analysis.ipynb#Breakdown-of-NTA-Subjects) and [Not the Asshole](https://nbviewer.org/github/Data-Science-for-Linguists-2023/AITA-Blame-Analysis/blob/main/code/data_analysis.ipynb#Breakdown-of-YTA-Subjects) posts can be found within the notebook. This includes some considerations of grammatical feasibility and animacy. But, for this summary, I will draw attention to one facet of this analysis:
 
-![png](gendered_subjects.png)
+![png](figures/gendered_subjects.png)
 
 Above is a breakdown of the top passive and top active subjects for Not the Asshole and Asshole posts that explicitly denote gender. For the lists of Not the Asshole subjects, the order of the genders represented in either list maintains roughly the same. But, in the Asshole lists, there is a clear separation. Masculine terms are represented higher up in the passive list whereas masculine terms are represented lower down in the active list. Conversely, feminine terms are shown to be more active than passive. This might allude to the theory I proposed earlier. The writers might be more willing to downplay the agency of men in their stories in order to shift the blame onto other parties. Yet, they do not afford the same grace to the women in their stories, implying that they should be held accountable for their actions.
 ### Qualitative Analysis: Key Examples of Subject Use
@@ -61,7 +61,7 @@ Clearly, passive voice can be used to fulfill a variety of functions. While it i
 ### Last Experiments: Machine Learning
 Lastly, I wanted to touch on the final experiments I conducted using this data set. For the last portion of my analysis, I had hoped to use machine learning to try and classify posts by their ruling, and then once I developed a satisfactory model, consider what the defining features of each ruling were. However, after [several attempts at developing a model](https://nbviewer.org/github/Data-Science-for-Linguists-2023/AITA-Blame-Analysis/blob/main/code/data_analysis_experiments.ipynb), the best I could achieve was an accuracy of 57.8%.
 
-![png](classification_success.png)
+![png](figures/classification_success.png)
 
 Nonetheless, I decided to include this failed experiment in the final project as it still reflects some thoughtful problem-solving and critical thinking even if it could not lead to results. This includes the decision to convert the model to a binary classifier between Asshole/Not the Asshole posts instead of all four rulings as well as the decision to create an even subset of data to try and build the model from.
 
